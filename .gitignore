@@ -78,3 +78,10 @@ android.*
 *.js
 !src/minshell.html
 !src/shell.html
+
+_deps
+CMakeFiles
+compile_commands.json
+raylib-game-template
+*.cmake
+CMakeCache.txt

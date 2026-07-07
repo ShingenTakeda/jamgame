@@ -9,7 +9,7 @@
 *
 ********************************************************************************************/
 
-#include "raylib.h"
+#include "base_def.hpp"
 
 #if defined(PLATFORM_WEB)
     #include <emscripten/emscripten.h>      // Emscripten library
@@ -46,13 +46,6 @@ typedef enum {
 //----------------------------------------------------------------------------------
 // Global Variables Definition (local to this module)
 //----------------------------------------------------------------------------------
-static const int screenWidth = 720;
-static const int screenHeight = 720;
-
-static RenderTexture2D target = { 0 };  // Render texture to render our game
-static int frameCounter = 0;
-
-// TODO: Define global variables here, recommended to make them static
 
 //----------------------------------------------------------------------------------
 // Module Functions Declaration
